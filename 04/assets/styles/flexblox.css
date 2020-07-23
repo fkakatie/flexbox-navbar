@@ -1,0 +1,34 @@
+/* HEADING STYLES */
+
+/* header h1 {
+    float: left;
+} */
+
+header div.container {
+    /* border: 3px solid gold;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NAVBAR STYLES */
+
+nav.flex-nav {
+    flex-basis: 50%;
+}
+
+nav.flex-nav ul {
+    /* border: 3px solid tomato; */
+    display: flex;
+}
+
+/* NAVBAR LINK STYLES */
+
+nav.flex-nav li {
+    /* border: 3px solid seagreen; */
+    flex-grow: 2;
+}
+
+nav.flex-nav li.social {
+    flex-grow: 1;
+}
